@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    .text-container {
+      padding: 2px;
+    }
+  
+    h1 {
+      font-size: 1xl; 
+    }
+  
+    h2 {
+      font-size: 1.5rem; 
+    }
+  
+    li {
+      font-size: 1rem; 
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .text-container {
+      padding: 8px;
+    }
+  
+    h1 {
+      font-size: 2xl; 
+    }
+  
+    h2 {
+      font-size: 2rem; 
+    }
+  
+    li {
+      font-size: 1.125rem;
+    }
+  }
+  

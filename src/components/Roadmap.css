@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e293b; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+.container {
+    max-width: 600px; /* Set max width for mobile view */
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em; /* Responsive font size */
+}
+
+h2 {
+    font-size: 1.5em; /* Responsive font size */
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+li {
+    margin: 10px 0; /* Space between list items */
+    position: relative; /* For custom bullet points */
+}
+
+li::before {
+    content: '✔'; /* Custom bullet point */
+    position: absolute;
+    left: -20px; /* Positioning of bullet */
+    color: #93c5fd; /* Light blue color for bullets */
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    .container {
+        max-width: 800px; /* Increase max width for larger screens */
+    }
+
+    h1 {
+        font-size: 3em; /* Larger font size for headings */
+    }
+
+    h2 {
+        font-size: 2em; /* Larger font size for subheadings */
+    }
+}

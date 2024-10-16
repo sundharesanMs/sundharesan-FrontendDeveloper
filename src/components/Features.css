@@ -1,0 +1,8 @@
+.bg-el {
+    
+        background-color: inherit; /* Dark blue-green background color */
+        height: 100vh;
+        min-width: 100vw;
+        background-size: cover;  /* Ensures the background color fills the full viewport */
+       
+}
